@@ -1,0 +1,96 @@
+﻿h1, h2, h3, spans
+{
+	font-family: Arial, Calibri;
+	font-size: 25px;
+	color: #FF0000;
+}
+a::before{
+	content:"студент I курса,"
+}
+a::after{
+	content:"проживающий по адресу Белорусская 19,"
+}
+a:hover
+{
+	color:#FF2200;
+}
+.text_1:first-child
+{
+	color: #000;
+	font-size: 20px;
+	font-family: Arial;
+	text-align: left;
+	word-spacing: 10px;
+	text-decoration: underline;
+	font-style: italic;
+}
+.text_2
+{
+	color: #4169E0;
+	font-size: 18px;
+	font-family: Calibri;
+	text-align: justify;
+	word-spacing: 12px;
+	text-decoration: none;
+	font-style: bold;
+}
+.text_3
+ {
+	color: #fd9254;
+	font-size: 16px;
+	font-family: Bree;
+	text-align: left;
+	word-spacing: 11px;
+	text-decoration: overline;
+	font-style: oblique;
+}
+#word_1, #word_2 {
+	color: #4169E0;
+	font-family: Bree;
+	text-decoration: none
+}
+body
+{
+	background-color:#77f1ca;
+}
+.list_1
+{
+	list-style-type: upper-roman;
+}
+.list_2
+{
+	list-style-image: url(../image3.jpg);
+}
+.list_3
+{
+	list-style-type:square;
+	color: #FF0008;
+	font-family: Calibri;
+}
+.list_4
+{
+	list-style-type:disс;
+	color: #55FF00;
+	font-family: Arial;
+}
+.table
+{
+	width: 700px;
+	height: 300px;
+	border: 2px solid #000;
+	text-align: center;
+	color: #FF005D;
+	font-family: Calibri;
+}
+.string
+{
+	text-decoration: underline;
+}
+.char
+{
+	color: #FF0026;
+	text-decoration: none;
+	font-size:40px;
+	font-family: Calibri;
+	border: 1px solid #000;
+}

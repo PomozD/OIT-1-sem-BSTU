@@ -1,0 +1,45 @@
+﻿h1, h2, h3, span
+{
+ font-family: Arial, Times New Roman;
+ font-size: 25px;
+ color: #F4A460;
+}
+.text_1
+{
+ color: #5F9EA0;
+ font-size: 20px;
+ fint-family: Arial;
+ text-align: center;
+ word-spacing: 10px;
+ text-decoration: underline;
+ font-style: italic;
+}
+.text_2
+{
+  color: #4169E0;
+  font-size: 18px;
+  font-family: Calibri;
+  text-align: justify;
+  word-spacing: 12px;
+  text-decoration: none;
+  font-style: bold;
+}
+.text_3
+{
+  color: #FF00FF;
+  font-size: 16px;
+  font-family: Bree;
+  text-align: left;
+  word-spacing: 11px;
+  text-decoration: overline;
+  font-style: oblique;
+}
+#word_1, #word_2 {
+	color: #4169E0;
+	font-family: Bree;
+	text-decoration: none
+}
+body 
+{
+	background-color:#F5F5F5;
+}

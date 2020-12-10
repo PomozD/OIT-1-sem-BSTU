@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Моя первая страница</title>
+<meta charset="utf-8"/>
+<style type='text/css'>
+@-webkit-keyframes anim_1{
+0%{margin-left:5px;margin-top:5px;background-color=#773c26;}
+50%{margin-left:5px;margin-top:250px;background-color=#e219a0;}
+100%{margin-left:5px;margin-top:5px;background-color=#1308b1;}
+}
+@-webkit-keyframes anim_2{
+0%{margin-left:100px;margin-top:100px;background-color=#442600;}
+50%{margin-left:500px;margin-top:250px;background-color=#7f4200;}
+100%{margin-left:100px;margin-top:100px;background-color=#7f7d00;}
+}
+@-webkit-keyframes anim_3{
+0%{margin-left:1000px;margin-top:1000px;background-color=#442600;}
+50%{margin-left:1500px;margin-top:250px;background-color=#7f4200;}
+100%{margin-left:1000px;margin-top:1000px;background-color=#7f7d00;}
+}
+#el_1{
+border:5px #4400FF solid;
+background-color:#FFEA00;
+height:75px;
+width:75px;
+font-size:3em;
+animation:anim_1 5s 40;
+-webkit-animation:anim_1 5s 400;
+float: left;
+}
+#el_2{
+background-image:url(images/4.jpg);
+height:500px;
+width:500px;
+animation:anim_2 5s 40;
+-webkit-animation:anim_2 5s 400;
+}
+el_3{
+background-image:url(images/3.jpg);
+height:1000px;
+width:1000px;
+animation:anim_3 2s 40;
+-webkit-animation:anim_2 2s 400;
+float: right;
+}
+</style>
+</head>
+<body>
+<div id="el_1">
+</div>
+<div id="el_2">
+</div>
+<div id="el_3">
+</div>
+</body>
+</html>

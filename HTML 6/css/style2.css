@@ -1,0 +1,45 @@
+body
+{
+	background: url(../images/bg.jpg) right top no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+}
+#paragraph_1
+{
+	margin: 100px auto;
+	border: 2px solid red;
+	border-radius:10px 10px;
+	padding: 10px 10px;
+	background-color: #00AEFF;
+	transition: width 2s;
+}
+#paragraph_2
+{
+	margin: 10px auto;
+	border: 1px solid blue;
+	transform: rotate(1deg);
+	border-radius:10px 10px;
+	background-color: #FF749B;
+	padding: 10px 10px;
+}
+.square
+{
+	list-style-type: square;
+}
+ol
+{
+	list-style-type: none;
+    counter-reset:  item;
+}
+.list li:before
+ {
+  content: counter(item) ') ';
+  counter-increment: item;
+}
+#img
+{
+	margin-left: 300px;
+	margin-top:100px;
+	transform: translate(10px, 10px);
+	transform: rotate(45deg);
+}

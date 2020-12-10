@@ -1,0 +1,91 @@
+h1, h2, h3, spans
+{
+	font-family: Arial, Calibri;
+	font-size: 25px;
+	color: #FF0000;
+}
+a:hover
+{
+	color:#FF2200;
+}
+.text_1
+{
+	color: #000;
+	font-size: 20px;
+	font-family: Arial;
+	text-align: center;
+	word-spacing: 10px;
+	text-decoration: underline;
+	font-style: italic;
+	text-shadow:1px 1px 2px #6F7274;
+}
+.text_2
+{
+	color: #4169E0;
+	font-size: 18px;
+	font-family: Calibri;
+	text-align: justify;
+	word-spacing: 12px;
+	text-decoration: none;
+	font-style: bold;
+}
+.text_3
+ {
+	color: #FF00FF;
+	font-size: 16px;
+	font-family: Bree;
+	text-align: left;
+	word-spacing: 11px;
+	text-decoration: overline;
+	font-style: oblique;
+}
+#word_1, #word_2 {
+	color: #4169E0;
+	font-family: Bree;
+	text-decoration: none
+}
+body
+{
+	background: linear-gradient(0deg, #FF9B53, #FFF);
+}
+.list_1
+{
+	list-style-type: upper-roman;
+}
+.list_2
+{
+	list-style-image: url(../images/1.jpeg);
+}
+.list_3
+{
+	list-style-type:square;
+	color: #FF0008;
+	font-family: Calibri;
+}
+.list_4
+{
+	list-style-type:disk;
+	color: #55FF00;
+	font-family: Arial;
+}
+.table
+{
+	width: 700px;
+	height: 300px;
+	border: 2px solid #000;
+	text-align: center;
+	color: #FF005D;
+	font-family: Calibri;
+}
+.string
+{
+	text-decoration: underline;
+}
+.char
+{
+	color: #FF0026;
+	text-decoration: none;
+	font-size:40px;
+	font-family: Calibri;
+	border: 1px solid #000;
+}

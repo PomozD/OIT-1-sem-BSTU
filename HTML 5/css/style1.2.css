@@ -1,0 +1,30 @@
+﻿body
+{
+	background: url(../images/cosmos.jpg) right 50% top 50% no-repeat ;
+  background-size: 100% 100%;
+	background-attachment: fixed;
+	color: #ffffff;
+}
+#img
+{
+	margin-left: 300px;
+	margin-top:100px;
+	transform: translate(10px, 10px);
+	transform: rotate(45deg);
+}
+#img_2
+{
+	width:400px;
+	float: right;
+	margin-right:600px;
+	margin-top:100px;
+}
+img
+{
+	transform: translate(10px,10px);
+	transition: 1s;
+}
+img:hover
+{
+	transform: rotate(90deg);
+}
